@@ -34,8 +34,8 @@ class Program
         // Calculate both diagonals
         for (int i = 0; i < n; i++)
         {
-            primarySum += mat[i, i];                 // mat[i][i]
-            secondarySum += mat[i, n - 1 - i];       // mat[i][n-1-i]
+            primarySum += mat[i, i];                 
+            secondarySum += mat[i, n - 1 - i];       
         }
 
         // Output same as example
